@@ -1,0 +1,2 @@
+Questao 1) acertos=4 e erros=3.
+Questao 2) acertos=7 e erros=1.
