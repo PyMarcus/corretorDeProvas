@@ -1,13 +1,21 @@
 
-- cliente: 
-usuário digita linha de texto
-programa cliente envia linha ao servidor
+## Como executar:
 
-- servidor:
-servidor recebe linha de texto
-coloca todas as letras em maiúsculas
-envia linha modificada ao cliente
+python Main.py Client ou Server ip porta [ip e porta sao opcionais], lembrando que o servidor deve ser iniciado primeiro
 
-- cliente:
-recebe linha de texto
-apresenta
+
+## Versão do python utilizada:
+
+3.10.5
+
+## Sistema operacional utilizado:
+
+windows 10, 64 bits
+
+
+## FUNCIONAMENTO:
+
+O Cliente define a quantidade de questões que há na prova.
+Feito isso, ele envia a questão, a quantidade de itens dentro da questão e suas respostas.<br>
+Logo, o servidor gera, pela quantidade informada pelo usuário, respostas aleatórias, as compara
+e gera as correções.Ao mesmo tempo, o servidor armazena, em arquivo, as estatíticas.
